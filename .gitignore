@@ -1,0 +1,35 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Base de datos local
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Configuración local / datos sensibles
+.env
+config_local.json
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+
